@@ -13,3 +13,9 @@ Links Onderaan
 master en v1.01
 
 Zie je via git branch
+
+````
+Thijss-MacBook-Pro:thijs-fork thijsvandongen$ git branch
+  master
+* v1.01
+˜˜˜
