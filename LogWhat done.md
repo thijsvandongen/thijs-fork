@@ -6,6 +6,7 @@
 - git clone git@github.com:thijsvandongen/thijs-fork.git
 
 I want to know which Branch is active?
+<<<<<<< HEAD
 
 In VScode is dat 
 
@@ -19,3 +20,5 @@ Thijss-MacBook-Pro:thijs-fork thijsvandongen$ git branch
   master
 * v1.01
 ˜˜˜
+=======
+>>>>>>> master
