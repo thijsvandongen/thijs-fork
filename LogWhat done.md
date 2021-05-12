@@ -6,19 +6,19 @@
 - git clone git@github.com:thijsvandongen/thijs-fork.git
 
 I want to know which Branch is active?
-<<<<<<< HEAD
 
-In VScode is dat 
+In VScode is dat:
 
 Links Onderaan
 master en v1.01
 
 Zie je via git branch
 
-````
+``` bash
 Thijss-MacBook-Pro:thijs-fork thijsvandongen$ git branch
   master
 * v1.01
 ˜˜˜
 =======
->>>>>>> master
+
+How are the tags added?
