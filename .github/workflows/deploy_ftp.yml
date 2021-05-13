@@ -19,7 +19,7 @@ jobs:
     - name: 📂 FTP files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        host: webvandongen.nl
+        server: webvandongen.nl
         username: thijs@webvandongen.nl
         password: ${{ secrets.ftp_password }}
         protocol: ftps
