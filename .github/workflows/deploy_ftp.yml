@@ -23,5 +23,5 @@ jobs:
         username: thijs@webvandongen.nl
         password: ${{ secrets.ftp_password }}
         protocol: ftps
-        local_folder: /
-        remote_folder: public_html/thijs-fork
+        local-dir: /
+        server-dir: public_html/thijs-fork
