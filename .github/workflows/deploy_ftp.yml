@@ -1,6 +1,12 @@
+# on:
+# release:
+#    types: [published]
 on:
-  release:
-    types: [published]
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -16,4 +22,4 @@ jobs:
         host: ftp.webvandongen.nl
         username: thijs@webvandongen.nl
         password: ${{ secrets.ftp_password }}
-        local_folder: /public_html/thijs-fork
+        remote_folder: /public_html/thijs-fork
