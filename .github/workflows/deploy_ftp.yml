@@ -24,4 +24,4 @@ jobs:
         password: ${{ secrets.ftp_password }}
         protocol: ftps
         local-dir: /
-        server-dir: public_html/thijs-fork
+        server-dir: public_html/thijs-fork/
