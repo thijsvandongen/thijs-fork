@@ -19,7 +19,7 @@ jobs:
     - name: 📂 FTP files
       uses: sand4rt/ftp-deployer@v1.3
       with:
-        host: ftp.webvandongen.nl
+        host: webvandongen.nl
         username: thijs@webvandongen.nl
         password: ${{ secrets.ftp_password }}
         local_folder: /
